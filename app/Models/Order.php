@@ -33,7 +33,9 @@ class Order extends Model
 
     public function skus(): BelongsToMany
     {
-        return $this->BelongsToMany(Sku::class)->using(OrderSku::class);;
+        return $this->BelongsToMany(Sku::class)
+            ->using(OrderSku::class)
+            ->withPivot('quantity', 'unitary_price', 'product');
     }
 
     public function payments(): HasMany
