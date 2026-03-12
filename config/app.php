@@ -123,4 +123,9 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
+    'aliases' => [
+        'CheckoutStepsEnum' => App\Enums\CheckoutStepsEnum::class,
+        'OrderStatusEnum' => App\Enums\OrderStatusEnum::class
+    ],
+
 ];
