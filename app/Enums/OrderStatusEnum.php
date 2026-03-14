@@ -35,4 +35,22 @@ enum OrderStatusEnum: int {
             default => ''
         };
     }
+
+    public static function parse($methodName)
+    {
+        switch($methodName) {
+            case 'Criado':
+                return self::CART;
+            case 'Pendente':
+                return self::PENDING;
+            case 'Pago':
+                return self::PAID;
+            case 'Cancelado':
+                return self::CANCELED;
+            case 'Não aprovado':
+                return self::REJECTED;
+            default:
+                return null;
+        }
+    }
 }
