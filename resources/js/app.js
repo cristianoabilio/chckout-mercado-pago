@@ -2,6 +2,6 @@ import { Livewire, Alpine } from '../../vendor/livewire/livewire/dist/livewire.e
 import checkout from "./checkout/checkout.js";
 import Clipboard from '@ryangjchandler/alpine-clipboard';
 
-Alpine.plugins(Clipboard);
+Alpine.plugin(Clipboard);
 Alpine.data('checkout', checkout);
 Livewire.start();
