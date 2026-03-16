@@ -23,7 +23,7 @@ enum OrderStatusEnum: int {
         };
     }
 
-    public function getStyle(): string
+    public function getStyles(): string
     {
         return match ($this)
         {
