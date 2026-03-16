@@ -128,6 +128,7 @@ return [
         'OrderStatusEnum' => App\Enums\OrderStatusEnum::class,
         'PaymentMethodEnum' => App\Enums\PaymentMethodEnum::class,
         'PaymentStatusEnum' => App\Enums\PaymentStatusEnum::class,
+        'Route' => Illuminate\Support\Facades\Route::class,
     ],
 
 ];
