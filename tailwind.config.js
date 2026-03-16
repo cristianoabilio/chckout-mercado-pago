@@ -7,6 +7,7 @@ export default {
         './vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php',
         './storage/framework/views/*.php',
         './resources/views/**/*.blade.php',
+        './app/Enums/*.php'
     ],
 
     theme: {
@@ -33,7 +34,7 @@ export default {
                     '900': '#0e1117',
                     '800': '#282a36',
                 }
-            },
+            }
         },
     },
 
