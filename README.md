@@ -1,5 +1,5 @@
 
-## Checkout integrated to Mercado Pago Gayments Gateway
+## Checkout integrated to Mercado Pago Payments Gateway
 
 Project built using: Laravel 12, PHP 8.2, Mysql, Livewire, Inertia, Sail, Mail Pint,Sanctum, Breeze, Mercado Pago SDK and Pest tests.
 
